@@ -1,12 +1,85 @@
 html{
   box-sizing: border-box;
 }
+*, *:before, *:after{
+  box-sizing: inherit;
+}
 body{
   margin: 0;
   padding: 0;
   background-color: #e1e1e1;
 }
-.main{
+header{
+  height: 187px;
+  background-color: #00063b;
+}
+header img{
+  width: 180px;
+  margin: 0 0 0 10%;
+  padding:  0 0 0 0;
+  float: left;
+}
+nav ul{
+  list-style: none;
+}
+.navigation > ul >li{
+  float: left;
+}
+.navigation{
+  background-color: red;
+}
+.navigation nav{
+  width: 1200px;
+  position: relative;
+}
+.navigation ul li a {
+  margin-top: 70px;
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+.navigation ul li ul li a{
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.navigation ul li:nth-child(2) a{
+  width: 285px;
+}
+.navigation ul li:nth-child(3) a{
+  width: 270px;
+}
+.navigation ul li a:hover{
+  color: cyan;
+}
+#ingresar{
+  color: blue;
+}
+/*-----------Segundo nivel navigation----------------*/
+.navigation ul ul{
+  display: none;
+  position: absolute;
+  background-color: lightblue;
+}
+.navigation ul li:hover > ul{
+  display: block;
+}
+.navigation ul li:hover{
+  background-color: rgba(0, 184, 228, 1);
+}
+div.contenido::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/*-----------MAIN----------------*/
+ .main{
   background-image: url(../img/portada.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,41 +88,20 @@ body{
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   position: relative;
+  z-index: -5;
 }
-.navigation{
-  padding: 0 0% 0 0%;
-}
-header img{
-  width: 300px;
-  border-radius: 50%;
-  margin: 0 0 0 10%;
-  padding:  0 0 0 0;
-}
-header h4{
+.main h4{
   font-size: 50px;
   float: right;
   padding: 15px 0 0 0;
   margin:  0 10% 0 0;
-}
-.navigation ul{
-  color: white;
-  text-align: left;
-  margin: 0 0 0 0;
-  padding: 0 0 0 9%;
-  background-color: #00063b;
-
-}
-.navigation ul li{
-  display: inline;
-  font-size: 2em;
-  padding: 0 20px;
 }
 .cotizar{
   background-color: rgba(0, 0, 0, 0.5);;
   width: 35%;
   height: 70%;
   float: right;
-  margin: 6% 5% 0 0;
+  margin: 6% -20% 0 0;
 }
 .cotizar p{
   color: white;
@@ -80,6 +132,7 @@ header h4{
   font-size: 20px;
   padding: 0 1% 0 2%;
 }
+/*----------SECCION NOTICIAS----------------*/
 .noticias h2{
   font-size: 70px;
   width: 10%;
@@ -103,6 +156,16 @@ hr {
   width: 30%;
   height: 30%;
   padding: 0% 0 0 0%;
-  margin: 0 0 0 0;
+  margin: 3% 3% 0 0;
   color: #b3baf8;
 }
+.cursor-noticias{
+  color: rgba(175,55,33,0.5);
+  font-size: 45px;
+  margin-left: 45%;
+}
+.fas:hover{
+  color: blue;
+  font-size: 55px;
+}
+/*----------SECCION SOBRE NOSOTROS----------------*/
