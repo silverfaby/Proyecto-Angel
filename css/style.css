@@ -267,3 +267,59 @@ div.contenido::after{
 .sobre-nosotros .textos-sobre-nosotros p{
     font-size: 20px;
 }
+/*----------FOOTER----------------*/
+.footer{
+    background-color: #363636;
+    padding: 6% 10% 9% 10%;
+}
+.footer h4{
+    color: white;
+    font-size: 40px;
+    float: right;
+    margin: -5% 0;
+}
+.footer .redes-sociales{
+    float: right;
+    margin: -1% 0 1% 0;
+    text-align: right;
+}
+.footer .redes-sociales a{
+    font-size: 35px;
+}
+.footer .redes-sociales img{
+    width: 15%;
+}
+.footer .logos-derecha{
+    float: right;
+    margin: -5% -0.8% 0 0;
+}
+.footer .logos-derecha img{
+    max-width: 20%;
+    float: right;
+    margin: 0 0.8%;
+}
+#data{
+    width: 3%;
+}
+.footer .logos-izquierda-arriba{
+    float: left;
+    margin: -5% 0 0 0;
+}
+.footer .logos-izquierda-arriba img{
+    width: 20%;
+    margin-right: 4%;
+}
+#federacion{
+    width: 11%;
+}
+.footer .logos-izquierda-abajo{
+    float: left;
+    margin: 2% 0 0 0;
+}
+.footer .logos-izquierda-abajo img{
+    width: 27%;
+    margin-right: 8%;
+}
+#rio{
+    width: 14%;
+}
