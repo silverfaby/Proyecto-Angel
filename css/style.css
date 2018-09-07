@@ -224,3 +224,46 @@ div.contenido::after{
   font-size: 50px;
 }
 /*----------SECCION SOBRE NOSOTROS----------------*/
+.sobre-nosotros{
+    background-color: #8f9b9b;
+    padding: 1% 10% 12% 10%;
+}
+.sobre-nosotros h2{
+  font-size: 58px;
+  width: 100%;
+  padding: 2.5% 0 0 0;
+  margin: 0 0 0 0;
+  color: #00063b;
+    text-align: center;
+}
+.sobre-nosotros .linea{
+    width: 25%;
+    height: 1px;
+    border: solid #00063b;
+    margin: 5% 0 0 0;
+    display: block;
+}
+.sobre-nosotros .izquierda{
+    float: left;    
+}
+.sobre-nosotros .derecha{
+    float: right;
+}
+.sobre-nosotros img{
+    float: right;
+    width: 30%;
+    margin: -24% 1% 0 0;
+}
+.sobre-nosotros .textos-sobre-nosotros{
+    color: white;
+    text-align: center;
+    width: 55%;
+    display: block;
+    margin: 12% 0 0 0;
+}
+.sobre-nosotros .textos-sobre-nosotros h3{
+    font-size: 45px;
+}
+.sobre-nosotros .textos-sobre-nosotros p{
+    font-size: 20px;
+}
